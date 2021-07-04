@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+  padding-top: 44px;
+}
+
 .container {
   max-width: 1200px;
   margin: auto;
@@ -11,6 +16,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 40px;
 }
 
 .search-input {
@@ -52,7 +58,19 @@
   color:#FFFFFF;
   margin-right: 10px;
 }
+
  .button-icon {
    margin-right: 6px;
+ }
+
+ .promo {
+   box-shadow: 0px 7px 12px rgb(158, 158, 163, 0.1);
+   background: #fff1b8 url(../img/promo_img.jpeg) no-repeat top -100px right -247px / 924px;
+   border-radius: 10px;
+   padding: 68px 70px;
+ }
+
+ .promo-text {
+   max-width: 500px;
  }
 
